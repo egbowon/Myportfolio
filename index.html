@@ -9,16 +9,16 @@
 </head>
 <body>
     
-    <div class="main-container">
+    <div class="main-container" id="homeup">
         <header>
             <nav>
                 <h1 class="logo">E<span>GBOWON</span></h1>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">WORK</a></li>
-                    <li><a href="">SKILL</a></li>
-                    <div class="contact"><li><button><a href="">CONTACT</a></button></li></div>
+                    <li><a href="#homeup">HOME</a></li>
+                    <li><a href="#about-section">ABOUT</a></li>
+                    <li><a href="#my-work">WORK</a></li>
+                    <li><a href="#skill-section">SKILL</a></li>
+                    <div class="contact"><li><button><a href="#main-back">CONTACT</a></button></li></div>
                 </ul>
             </nav>
         </header><br><br><br><br>
@@ -162,13 +162,13 @@
                     <h6>Address: <span>No 10 onitire bustop, ikotun Lagos</span></h6>
                 </div>
                 <div class="white">
-                    <form action="">
-                        <input type="text" placeholder="Name*"><br>
-                        <input type="text" placeholder="Email*"><br>
-                        <input type="text" placeholder="Phone*"><br>
-                        <input type="text" placeholder="Subject*"><br>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Write Message*" class="message"></textarea>
-                        <button>Send Message</button>
+                    <form action="https://formspree.io/f/xgegppqb" method="POST">
+                        <input type="text" name="name" placeholder="Name*" required><br>
+                        <input type="email" name="Email" placeholder="Email*" required><br>
+                        <input type="number" name="number" placeholder="Phone*" required><br>
+                        <input type="text" name="Subject" placeholder="Subject*" required><br>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message*" class="message"></textarea>
+                        <button type="submit">Send Message</button>
                     </form>
                 </div>
             </div>
