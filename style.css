@@ -475,6 +475,7 @@ nav ul li a:hover{
 #menubar{
     color: black;
     font-size: 60px;
+    display: none;
     
 }
 #close-menu{
