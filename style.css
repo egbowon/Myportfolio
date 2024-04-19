@@ -16,7 +16,6 @@ nav{
     border-radius: 7px;
     position: fixed;
     left: 0;
-    
     width: 100%;
     z-index: 999;
     
@@ -465,4 +464,130 @@ nav ul li a:hover{
     background-color: darkgray;
     padding-block: 30px;
     border-radius: 10px;
+}
+
+
+
+
+
+
+
+#menubar{
+    color: black;
+    font-size: 60px;
+    
+}
+#close-menu{
+    display: none;
+}
+
+
+
+
+
+
+@media(max-width: 320px){
+    nav{
+    background-color: transparent;
+    padding: 5px 10px;
+    width: 100%;
+    }
+    #frank{
+        display: none;
+    }
+    nav ul{
+    display: block;
+    align-items: center;
+    background-color: rgb(222, 204, 172);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 350vh;
+    width: 350px;
+    padding-top: 30px;
+}
+nav ul li{
+    border-bottom: 1px dotted white;
+    margin-top: 25px;
+}
+nav ul li a{
+    padding-left: 15px;
+    
+}
+#close-menu{
+    position: absolute;
+    top: 0;
+    margin-left: ;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: red;
+    font-size: 40px;
+    display: block;
+}
+#menubar{
+    display: block;
+}
+.logo{
+    display: flex;
+    margin-left: 50px;
+}
+#hero-section{
+    display: grid;
+    margin-top: 150px;
+    position: relative;
+    left: -15rem;
+}
+.hero-left img{
+    margin-top: 80px;
+}
+#about-section{
+    display: grid;
+    width: 600px;
+    
+}
+.about-left img{
+    width: 500px;
+    position: relative;
+    right: -0rem;
+}
+.about-right .water-mark{
+    position: absolute;
+    top: 125rem;
+}
+.text{
+    position: relative;
+    right: -0rem;
+}
+.work{
+    width: 160px;
+    height: 180px;
+}
+#my-work{
+    position: relative;
+    right: -8.5rem;
+}
+#skill-section{
+    width: 599px;
+}
+.row{
+    width: 500px;
+}
+.row .col .skill{
+    width: 130px;
+    left: -3rem;
+}
+/*======contact-section=====*/
+
+
+#main-back{
+    width: 599px;
+    display: block;
+}
+.blue{
+    display: none;
+}
+.white{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 }
